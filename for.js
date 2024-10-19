@@ -22,8 +22,11 @@
 
 // console.log(x);
 
-function sleep() {
-  console.log("Rakib is sleeping from 10 pm");
+function sleep(name) {
+  console.log(name + " is sleeping from 10 pm" + time);
+  return 5;
 }
-sleep();
-console.log("my name");
+// console.log(name);
+sleep("jasim", "10pm");
+sleep("rakib", "9pm");
+sleep("rafi", "12pm");

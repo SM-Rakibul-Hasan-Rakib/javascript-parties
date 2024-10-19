@@ -10,9 +10,15 @@ var message;
 // Rules: condition ? true : false;
 // message = y < 5 ? "biggest than 5" : "less than 5";
 // console.log(message);
-y > 5 ? console.log("bigger than 5") : console.log("less than 5");
+// y > 5 ? console.log("bigger than 5") : console.log("less than 5");
 
-var sunnyDay = true;
-console.log(!sunnyDay);
+// var sunnyDay = true;
+// console.log(!sunnyDay);
 
-console.log(!(10 === 10));
+// console.log(!(10 === 10));
+
+// let text = "Hello World";
+// console.log(text.split());
+
+let str = "Oi Mama na Plz Dakat is comming ";
+console.log(str.indexOf("Dakat"));
